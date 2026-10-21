@@ -1,0 +1,405 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Themes | The Midnight Pages</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Georgia, "Times New Roman", serif;
+            background: #151313;
+            color: #f5eee4;
+            line-height: 1.9;
+        }
+
+        header {
+            background: #211b1b;
+            padding: 22px 8%;
+            text-align: center;
+            border-bottom: 1px solid #a98b58;
+        }
+
+        header h1 {
+            color: #d6b779;
+            font-size: 32px;
+            letter-spacing: 3px;
+        }
+
+        header p {
+            color: #c9bfb4;
+            font-size: 13px;
+            letter-spacing: 2px;
+        }
+
+        nav {
+            background: #191515;
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav a {
+            color: #f5eee4;
+            text-decoration: none;
+            margin: 0 10px;
+            transition: 0.3s;
+        }
+
+        nav a:hover {
+            color: #d6b779;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 65px 20px;
+            background: linear-gradient(#292020, #151313);
+        }
+
+        .hero .label {
+            color: #d6b779;
+            font-size: 13px;
+            letter-spacing: 4px;
+            text-transform: uppercase;
+        }
+
+        .hero h2 {
+            color: #e2c58c;
+            font-size: 42px;
+            margin: 12px 0;
+        }
+
+        .hero p {
+            max-width: 720px;
+            margin: auto;
+            color: #d4c9bd;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: auto;
+            padding: 40px 22px;
+        }
+
+        .section-title {
+            color: #d6b779;
+            text-align: center;
+            font-size: 29px;
+            margin-bottom: 28px;
+        }
+
+        .theme-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            gap: 22px;
+        }
+
+        .theme-card {
+            background: #211c1c;
+            border: 1px solid #55452f;
+            border-radius: 12px;
+            padding: 27px;
+            transition: 0.3s;
+        }
+
+        .theme-card:hover {
+            transform: translateY(-5px);
+            border-color: #d6b779;
+            box-shadow: 0 8px 22px rgba(0, 0, 0, 0.3);
+        }
+
+        .theme-icon {
+            font-size: 35px;
+            margin-bottom: 10px;
+        }
+
+        .theme-card h3 {
+            color: #e2c58c;
+            font-size: 23px;
+            margin-bottom: 13px;
+        }
+
+        .theme-card p {
+            color: #e1d8ce;
+            margin-bottom: 12px;
+        }
+
+        .theme-label {
+            color: #d6b779;
+            font-size: 12px;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+        }
+
+        .message-card {
+            margin-top: 40px;
+            padding: 30px;
+            background: #211c1c;
+            border-left: 3px solid #d6b779;
+            border-radius: 5px;
+        }
+
+        .message-card h3 {
+            color: #e2c58c;
+            font-size: 25px;
+            margin-bottom: 12px;
+        }
+
+        .message-card p {
+            color: #e1d8ce;
+        }
+
+        .quote-box {
+            text-align: center;
+            margin: 40px 0;
+            padding: 28px 15px;
+            border-top: 1px solid #55452f;
+            border-bottom: 1px solid #55452f;
+            color: #e2c58c;
+            font-size: 21px;
+            font-style: italic;
+        }
+
+        .button {
+            display: inline-block;
+            background: #d6b779;
+            color: #191515;
+            text-decoration: none;
+            padding: 12px 24px;
+            border-radius: 5px;
+            font-weight: bold;
+            margin: 8px;
+            transition: 0.3s;
+        }
+
+        .button:hover {
+            background: #f0d9a7;
+        }
+
+        .center {
+            text-align: center;
+            margin: 35px 0;
+        }
+
+        footer {
+            background: #211b1b;
+            border-top: 1px solid #a98b58;
+            text-align: center;
+            padding: 25px;
+            color: #c9bfb4;
+            font-size: 14px;
+        }
+
+        footer strong {
+            color: #d6b779;
+        }
+
+        @media (max-width: 600px) {
+            .hero h2 {
+                font-size: 32px;
+            }
+
+            nav a {
+                display: inline-block;
+                margin: 5px 7px;
+            }
+
+            .theme-card {
+                padding: 22px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>THE MIDNIGHT PAGES</h1>
+    <p>WHERE EVERY STORY HOLDS A SECRET</p>
+</header>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="group.html">Our Group</a>
+    <a href="book.html">The Book</a>
+    <a href="setting.html">Setting</a>
+    <a href="characters.html">Characters</a>
+    <a href="summary1.html">Summary</a>
+    <a href="themes.html">Themes</a>
+    <a href="conclusion.html">Conclusion</a>
+</nav>
+
+<section class="hero">
+    <p class="label">Look Beneath the Surface</p>
+    <h2>Themes of the Novel</h2>
+    <p>
+        A memorable story offers more than events.
+        Explore the ideas, emotions, and questions
+        behind The House That Horror Built by Christina Henry.
+    </p>
+</section>
+
+<main class="container">
+
+    <h2 class="section-title">Major Themes</h2>
+
+    <div class="theme-grid">
+
+        <div class="theme-card">
+            <div class="theme-icon">🕯️</div>
+            <p class="theme-label">Theme 01</p>
+            <h3>Fear and Horror</h3>
+
+            <p>
+                Fear is central to the novel's atmosphere.
+                The mansion, its unsettling surroundings,
+                and the unexplained events create suspense
+                and encourage readers to question what is real.
+            </p>
+
+            <p>
+                The novel uses horror to explore how people
+                respond when they face uncertainty.
+            </p>
+        </div>
+
+        <div class="theme-card">
+            <div class="theme-icon">🔐</div>
+            <p class="theme-label">Theme 02</p>
+            <h3>Secrets and Mystery</h3>
+
+            <p>
+                The mysterious mansion and the questions
+                surrounding its owner create a sense of secrecy.
+                As the story develops, readers are encouraged
+                to look beyond appearances.
+            </p>
+
+            <p>
+                This theme highlights the curiosity and tension
+                that arise when important information is hidden.
+            </p>
+        </div>
+
+        <div class="theme-card">
+            <div class="theme-icon">❤️</div>
+            <p class="theme-label">Theme 03</p>
+            <h3>Family and Responsibility</h3>
+
+            <p>
+                Harry's responsibilities as a mother influence
+                her decisions. Her need to earn a living gives
+                her a strong reason to keep working, even when
+                her circumstances become unsettling.
+            </p>
+
+            <p>
+                Her situation highlights the importance of family
+                and the difficult choices people may face
+                while caring for loved ones.
+            </p>
+        </div>
+
+        <div class="theme-card">
+            <div class="theme-icon">⚖️</div>
+            <p class="theme-label">Theme 04</p>
+            <h3>Survival and Difficult Choices</h3>
+
+            <p>
+                Harry must balance her need for financial security
+                with her growing concerns about her workplace.
+                Her situation raises questions about how people
+                make decisions when they have limited options.
+            </p>
+
+            <p>
+                This theme invites readers to consider the
+                relationship between necessity, courage,
+                and personal judgment.
+            </p>
+        </div>
+
+        <div class="theme-card">
+            <div class="theme-icon">🎭</div>
+            <p class="theme-label">Theme 05</p>
+            <h3>Appearance and Reality</h3>
+
+            <p>
+                A mansion filled with horror-film objects creates
+                an unusual contrast between fictional horror
+                and the world in which Harry must live and work.
+            </p>
+
+            <p>
+                The story encourages readers to question whether
+                appearances always reveal the truth.
+            </p>
+        </div>
+
+        <div class="theme-card">
+            <div class="theme-icon">🌑</div>
+            <p class="theme-label">Theme 06</p>
+            <h3>Isolation and Unease</h3>
+
+            <p>
+                The mansion's atmosphere and its owner's
+                withdrawal from public life contribute to
+                the feeling of isolation surrounding the story.
+            </p>
+
+            <p>
+                This sense of separation strengthens the
+                mysterious mood and makes the setting
+                especially important to the novel.
+            </p>
+        </div>
+
+    </div>
+
+    <div class="message-card">
+        <h3>What Message Can Readers Take Away?</h3>
+
+        <p>
+            The novel invites readers to think about fear,
+            responsibility, secrets, and the choices people
+            make under pressure. Harry's situation connects
+            the unsettling elements of horror with familiar
+            human concerns, particularly the desire to
+            protect one's family and maintain security.
+        </p>
+    </div>
+
+    <div class="quote-box">
+        Sometimes, the most interesting part of a story
+        is what lies beneath its surface.
+    </div>
+
+    <div class="center">
+        <a href="summary1.html" class="button">
+            ← Story Summary
+        </a>
+
+        <a href="conclusion.html" class="button">
+            Read Our Conclusion →
+        </a>
+    </div>
+
+</main>
+
+<footer>
+    <p>
+        <strong>The Midnight Pages</strong>
+        | A Student Book Review Project
+    </p>
+    <p>Exploring stories, one page at a time.</p>
+</footer>
+
+</body>
+</html>

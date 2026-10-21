@@ -1,0 +1,305 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Characters | The Midnight Pages</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Georgia, "Times New Roman", serif;
+            background: #151313;
+            color: #f5eee4;
+            line-height: 1.8;
+        }
+
+        header {
+            background: #211b1b;
+            padding: 22px 8%;
+            text-align: center;
+            border-bottom: 1px solid #a98b58;
+        }
+
+        header h1 {
+            color: #d6b779;
+            letter-spacing: 3px;
+            font-size: 32px;
+        }
+
+        header p {
+            color: #c9bfb4;
+            font-size: 13px;
+            letter-spacing: 2px;
+        }
+
+        nav {
+            background: #191515;
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav a {
+            color: #f5eee4;
+            text-decoration: none;
+            margin: 0 10px;
+            transition: 0.3s;
+        }
+
+        nav a:hover {
+            color: #d6b779;
+        }
+
+        .hero {
+            padding: 65px 20px;
+            text-align: center;
+            background: linear-gradient(#292020, #151313);
+        }
+
+        .hero .label {
+            color: #d6b779;
+            letter-spacing: 4px;
+            text-transform: uppercase;
+            font-size: 13px;
+        }
+
+        .hero h2 {
+            color: #e2c58c;
+            font-size: 42px;
+            margin: 10px 0;
+        }
+
+        .hero p {
+            max-width: 720px;
+            margin: auto;
+            color: #d4c9bd;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: auto;
+            padding: 40px 22px;
+        }
+
+        .section-title {
+            color: #d6b779;
+            text-align: center;
+            font-size: 29px;
+            margin-bottom: 25px;
+        }
+
+        .character-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 22px;
+        }
+
+        .character-card {
+            background: #211c1c;
+            border: 1px solid #55452f;
+            border-radius: 12px;
+            padding: 27px;
+            transition: 0.3s;
+        }
+
+        .character-card:hover {
+            border-color: #d6b779;
+            transform: translateY(-5px);
+            box-shadow: 0 8px 22px rgba(0, 0, 0, 0.3);
+        }
+
+        .character-icon {
+            font-size: 35px;
+            margin-bottom: 10px;
+        }
+
+        .character-card h3 {
+            color: #e2c58c;
+            font-size: 24px;
+            margin-bottom: 12px;
+        }
+
+        .character-card p {
+            color: #e1d8ce;
+            margin-bottom: 12px;
+        }
+
+        .role {
+            display: inline-block;
+            color: #d6b779;
+            border: 1px solid #806a45;
+            border-radius: 20px;
+            padding: 3px 12px;
+            font-size: 12px;
+            margin-bottom: 14px;
+        }
+
+        .note {
+            margin-top: 35px;
+            padding: 20px;
+            background: #211c1c;
+            border-left: 3px solid #d6b779;
+            color: #d4c9bd;
+        }
+
+        .button {
+            display: inline-block;
+            margin-top: 25px;
+            padding: 12px 24px;
+            background: #d6b779;
+            color: #191515;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+
+        .button:hover {
+            background: #f0d9a7;
+        }
+
+        .center {
+            text-align: center;
+            margin-bottom: 35px;
+        }
+
+        footer {
+            background: #211b1b;
+            border-top: 1px solid #a98b58;
+            text-align: center;
+            padding: 25px;
+            color: #c9bfb4;
+            font-size: 14px;
+        }
+
+        footer strong {
+            color: #d6b779;
+        }
+
+        @media (max-width: 600px) {
+            .hero h2 {
+                font-size: 32px;
+            }
+
+            nav a {
+                display: inline-block;
+                margin: 5px 7px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>THE MIDNIGHT PAGES</h1>
+    <p>WHERE EVERY STORY HOLDS A SECRET</p>
+</header>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="group.html">Our Group</a>
+    <a href="book.html">The Book</a>
+    <a href="setting.html">Setting</a>
+    <a href="characters.html">Characters</a>
+    <a href="summary1.html">Summary</a>
+    <a href="themes.html">Themes</a>
+    <a href="conclusion.html">Conclusion</a>
+</nav>
+
+<section class="hero">
+    <p class="label">The People Behind the Story</p>
+    <h2>Meet the Characters</h2>
+    <p>
+        Characters bring a novel to life. Discover the people
+        connected to the mystery at the heart of
+        The House That Horror Built.
+    </p>
+</section>
+
+<main class="container">
+
+    <h2 class="section-title">Main Characters</h2>
+
+    <div class="character-grid">
+
+        <div class="character-card">
+            <div class="character-icon">👩</div>
+            <span class="role">Main Character</span>
+            <h3>Harry Adams</h3>
+            <p>
+                Harry is a single mother who takes a cleaning job
+                at the mansion of horror-film director Javier Castillo.
+                She is trying to provide for her young daughter while
+                dealing with an increasingly unusual situation.
+            </p>
+            <p>
+                <strong>Importance:</strong> Harry's experiences guide
+                readers through the central mystery of the novel.
+            </p>
+        </div>
+
+        <div class="character-card">
+            <div class="character-icon">🎬</div>
+            <span class="role">Important Character</span>
+            <h3>Javier Castillo</h3>
+            <p>
+                Javier Castillo is a horror-film director and the
+                owner of the mansion where Harry works.
+                His connection to the world of horror makes him
+                an important figure in the story.
+            </p>
+            <p>
+                <strong>Importance:</strong> His mansion and
+                circumstances are central to Harry's new job
+                and the novel's mystery.
+            </p>
+        </div>
+
+        <div class="character-card">
+            <div class="character-icon">🧒</div>
+            <span class="role">Family Connection</span>
+            <h3>Harry's Daughter</h3>
+            <p>
+                Harry's young daughter is an important part of
+                Harry's life and her motivation to work.
+                Her presence highlights Harry's responsibilities
+                as a mother.
+            </p>
+            <p>
+                <strong>Importance:</strong> She helps readers
+                understand what Harry is working to protect
+                and provide for.
+            </p>
+        </div>
+
+    </div>
+
+    <div class="note">
+        <strong>Character analysis:</strong>
+        Harry's role as a mother gives her decisions a personal
+        significance. Javier's position as the mansion's owner
+        connects Harry's ordinary working life to the novel's
+        unusual and unsettling setting.
+    </div>
+
+    <div class="center">
+        <a href="summary1.html" class="button">
+            Read the Story Summary →
+        </a>
+    </div>
+
+</main>
+
+<footer>
+    <p><strong>The Midnight Pages</strong> | A Student Book Review Project</p>
+    <p>Exploring stories, one page at a time.</p>
+</footer>
+
+</body>
+</html>
